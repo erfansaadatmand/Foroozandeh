@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>About - UpConstruction Bootstrap Template</title>
+  <title>درباره فروزنده</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -45,15 +45,17 @@
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">UpConstruction</h1> <span>.</span>
+        <h1 class="sitename">Foroozandeh </h1> <span>.</span>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html" class="active">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="projects.html">Projects</a></li>
+          <li><a href="index.html">خانه</a></li>
+          <li><a href="about.html">درباره ما</a></li>
+          <li><a href="products.html">محصولات</a></li>
+          <li><a href="contact.html">ارتباط</a></li>
+          <!-- 
+          <li><a href="services.html">محصولات</a></li>
           <li><a href="blog.html">Blog</a></li>
           <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
@@ -72,10 +74,12 @@
               <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li>
-          <li><a href="contact.html">Contact</a></li>
+          -->
+          
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
+
 
     </div>
   </header>
@@ -85,51 +89,41 @@
     <!-- Page Title -->
     <div class="page-title dark-background" style="background-image: url(assets/img/page-title-bg.jpg);">
       <div class="container position-relative">
-        <h1>About</h1>
+        <h1>درباره فروزنده</h1>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">About</li>
+            <li><a href="index.html">خانه</a></li>
+            <li class="current">درباره ما</li>
           </ol>
         </nav>
       </div>
     </div><!-- End Page Title -->
 
     <!-- About Section -->
-    <section id="about" class="about section">
+    <section id="about" class="about section py-5 d-flex align-items-center justify-content-center" style="height: 100vh;"> <!-- Use d-flex to center -->
 
-      <div class="container">
-
-        <div class="row position-relative">
-
-          <div class="col-lg-7 about-img" data-aos="zoom-out" data-aos-delay="200"><img src="assets/img/about.jpg"></div>
-
-          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
-            <h2 class="inner-title">Consequatur eius et magnam</h2>
-            <div class="our-story">
-              <h4>Est 1988</h4>
-              <h3>Our Story</h3>
-              <p>Inventore aliquam beatae at et id alias. Ipsa dolores amet consequuntur minima quia maxime autem. Quidem id sed ratione. Tenetur provident autem in reiciendis rerum at dolor. Aliquam consectetur laudantium temporibus dicta minus dolor.</p>
-              <ul>
-                <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commo</span></li>
-                <li><i class="bi bi-check-circle"></i> <span>Duis aute irure dolor in reprehenderit in</span></li>
-                <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
-              </ul>
-              <p>Vitae autem velit excepturi fugit. Animi ad non. Eligendi et non nesciunt suscipit repellendus porro in quo eveniet. Molestias in maxime doloremque.</p>
-
-              <div class="watch-video d-flex align-items-center position-relative">
-                <i class="bi bi-play-circle"></i>
-                <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox stretched-link">Watch Video</a>
+      <div class="container"> <!-- Regular container for proper width -->
+    
+        <div class="row justify-content-center"> <!-- Center the row content -->
+    
+          <div class="col-lg-7 text-center" data-aos="zoom-out" data-aos-delay="100"> <!-- Centering the text and content -->
+            <div class="image-box" style="margin: 0 auto;"> <!-- Center the image box -->
+              <img src="assets/img/logo.png" alt="About Us" class="img-fluid rounded shadow mb-3"> <!-- Image -->
+              <div class="watch-video d-flex align-items-center justify-content-center position-relative" style="margin-right: 5%;">
+                <i class="bi bi-play-circle" style="margin-right: 8px;"></i> <!-- Adjust margin for spacing -->
+                <a href="assets/video/Foroozandeh.mp4" class="glightbox stretched-link btn btn-primary">تماشای ویدیو</a>
               </div>
+              
             </div>
           </div>
-
+    
         </div>
-
+    
       </div>
-
+    
     </section><!-- /About Section -->
-
+    
+    
     <!-- Alt Services Section -->
     <section id="alt-services" class="alt-services section">
 
@@ -140,28 +134,45 @@
 
           <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
             <h3>درباره ما</h3>
-            <p>مجموعه ی موسیقی فروزنده به عنوان اولین تولید کننده لوازم موسیقی کودکان، این افتخار را داشته است که از سال ۱۳۷۰ با شروع فعالیت خود در خدمت مردم عزیز ایران و پیشگام در زمینه آموزش باشد. در این مسیر توانسته ایم همواره همراه با اساتید مطرح و بنام این عرصه گام برداریم و رضایت مخاطبین گرامی و اساتید را داشته باشیم.</p>
-
-            <p>تایید محصولات توسط اساتید طراز اول همچون آقای ناصر نظر، آقای مسعود نظر، خانم سودابه سالم (کامکار) و خانم نزهت امیری (عاشوری) و کانون پرورش فکری کودک و نوجوان برگ زرینی است بر سابقه ی درخشان این مجموعه و دلگرمی برای ما تا بتوانیم در کنار شما دوستداران فرهنگ و هنر باشیم. </p >
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
+            <p>
+              مجموعه ی موسیقی فروزنده به عنوان اولین تولید کننده لوازم موسیقی کودکان در ایران، 
+              این افتخار را داشته است که از سال ۱۳۷۰ با شروع فعالیت خود در خدمت مردم عزیز 
+              ایران و پیشگام در زمینه آموزش باشد. در این مسیر توانسته‌ایم همواره همراه با 
+              اساتید مطرح و بنام این عرصه گام برداریم و رضایت مخاطبین گرامی و اساتید را 
+              داشته باشیم.
+          </p>
+          <p>
+              تایید محصولات توسط اساتید طراز اول همچون آقای ناصر نظر، آقای مسعود نظر، خانم سودابه 
+              سالم (کامکار) و خانم نزهت امیری (عاشوری) و کانون پرورش فکری کودک و نوجوان، برگ 
+              زرینی است بر سابقه‌ی درخشان این مجموعه و دلگرمی برای ما تا بتوانیم در کنار شما 
+              دوستداران فرهنگ و هنر باشیم.
+          </p>
+          <p>
+              موسیقی کودک در ایران به عنوان یکی از مهم‌ترین جنبه‌های فرهنگی، نقش بسزایی در 
+              آموزش و پرورش کودکان ایفا می‌کند. با تکیه بر ملودی‌های سنتی و محلی، این موسیقی 
+              به کودکان کمک می‌کند تا احساسات خود را بهتر بیان کنند و با دنیای اطراف خود 
+              ارتباط برقرار نمایند. مجموعه ی فروزنده با ارائه لوازم و ابزارهای مناسب، 
+              سعی دارد تا زمینه‌ساز یادگیری و رشد خلاقیت در کودکان باشد.
+          </p>
+              <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
               <i class="bi bi-easel flex-shrink-0"></i>
-              <div>
+              <div style="margin-right: 5%;">
                 <h4><a href="" class="stretched-link">فروزنده، فراتر از محصول</a></h4>
                 <p>خلق لذت و ارزشی بی‌نظیر در هر لحظه؛ ما با دقت و کیفیت در هر مرحله، تجربه‌ای خاص را برای شما به ارمغان می‌آوریم.</p>
               </div>
             </div><!-- End Icon Box -->
 
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-patch-check flex-shrink-0"></i>
-              <div>
+              <i class="bi bi-magic  flex-shrink-0"></i>
+              <div style="margin-right: 5%;">
                 <h4><a href="" class="stretched-link">نوآوری در هر قدم</a></h4>
                 <p>با نگرشی جدید و خلاقانه، ما همواره در جستجوی بهبود و ارتقاء هستیم. هر محصول نمایانگر تعهد ما به کمال و نوآوری است.</p>
               </div>
             </div><!-- End Icon Box -->
 
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
-              <i class="bi bi-brightness-high flex-shrink-0"></i>
-              <div>
+              <i class="bi bi-patch-check flex-shrink-0"></i>
+              <div style="margin-right: 5%;">
                 <h4><a href="" class="stretched-link">کیفیت به معنای واقعی</a></h4>
                 <p>ما با تکیه بر کیفیت و کارایی، بر آن هستیم که بهترین‌ها را برای شما فراهم کنیم. هر جزئیات نشان‌دهنده‌ی تلاش و عشق ما به کار است.</p>
               </div>
@@ -169,7 +180,7 @@
 
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
               <i class="bi bi-brightness-high flex-shrink-0"></i>
-              <div>
+              <div style="margin-right: 5%;">
                 <h4><a href="" class="stretched-link">تجربه‌ای فراموش‌نشدنی</a></h4>
                 <p>محصولات فروزنده نه‌تنها ابزارهایی برای راحتی شما هستند، بلکه داستانی از خلاقیت و دقت در طراحی و تولید را روایت می‌کنند.</p>
               </div>
@@ -197,23 +208,23 @@
 
               <div class="col-lg-6 icon-box d-flex">
                 <i class="bi bi-easel flex-shrink-0"></i>
-                <div>
+                <div style="margin-right: 5%;">
                   <h4>  فروزنده، نماد درخشش </h4>
                   <p> با طراحی خاص و مدرن، ما به کیفیت و کارایی در هر جزئیات متعهد هستیم. هر محصول فروزنده نه‌تنها نمایانگر تلاش و خلاقیت ماست، بلکه گواهی بر اراده ما برای ارائه بهترین تجربه به شماست. </p>
                 </div>
               </div><!-- End Icon Box -->
 
               <div class="col-lg-6 icon-box d-flex">
-                <i class="bi bi-patch-check flex-shrink-0"></i>
-                <div>
+                <i class="bi bi-magic  flex-shrink-0"></i>
+                <div style="margin-right: 5%;">
                   <h4>نوآوری و کیفیت </h4>
                   <p>محصولات ما با بهره‌گیری از جدیدترین تکنولوژی‌ها طراحی و تولید می‌شوند تا در هر لحظه همراه شما باشند و بهترین تجربه را برایتان به ارمغان بیاورند.</p>
                 </div>
               </div><!-- End Icon Box -->
 
               <div class="col-lg-6 icon-box d-flex">
-                <i class="bi bi-brightness-high flex-shrink-0"></i>
-                <div>
+                <i class="bi bi-patch-check flex-shrink-0"></i>
+                <div style="margin-right: 5%;">
                   <h4> تضمین کیفیت </h4>
                   <p>فروزنده با اطمینان به کیفیت محصولاتش، همواره در پی ارائه بهترین تجربه ممکن به مشتریان عزیز است. ما برای شما بهترین‌ها را می‌سازیم.</p>
                 </div>
@@ -221,7 +232,7 @@
 
               <div class="col-lg-6 icon-box d-flex">
                 <i class="bi bi-brightness-high flex-shrink-0"></i>
-                <div>
+                <div style="margin-right: 5%;">
                   <h4>تعهد ما</h4>
                   <p>هر لحظه‌ای که از محصولات فروزنده استفاده می‌کنید، نمایانگر تعهد ما به کمال و کیفیت است. ما به شما این اطمینان را می‌دهیم که تجربه‌ای فراموش‌نشدنی خواهید داشت.
 
@@ -234,7 +245,7 @@
           </div>
 
           <div class="features-image col-lg-5 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/img/features-3-2.jpg" alt="">
+            <img src="assets/img/page-title-bg.jpg" alt="" style="object-fit:contain;">
           </div>
 
         </div>
@@ -252,22 +263,18 @@
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">UpConstruction</span>
+            <span class="sitename">Foroozandeh</span>
           </a>
           <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
+            <p>شیراز</p>
+            <p>استان فارس</p>
           </div>
           <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.instagram.com/foroozandeh_music/?hl=en"><i class="bi bi-instagram"></i></a>
           </div>
         </div>
 
+       <!--   
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Useful Links</h4>
           <ul>
@@ -311,18 +318,18 @@
             <li><a href="#">Flexo</a></li>
           </ul>
         </div>
-
+-->
       </div>
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">UpConstruction</strong> <span>All Rights Reserved</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">foroozandeh-music</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="#">Erfan</a>
       </div>
     </div>
 
